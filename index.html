@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p id="h1">Ball hits:</p>
-    <div style="width: 60px; height: 60px;"></div>
-    <script src="index.js"></script>
+    <p id="h1">Score:</p>
+    <div id="div" style="width: 60px; height: 60px;"></div>
+    <div id="slide">
+        <label for="slider">Speed: <span id="sliderValue">8</span></label>
+        <input type="range" id="slider" name="slider" min="5" max="15" value="8" oninput="updateSliderValue()">
+    </div>
+    <script src="index.js">
+    </script>
 </body>
 </html>

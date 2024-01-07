@@ -1,4 +1,8 @@
-div{
+body{
+    display: flex;
+}
+
+#div{
     background-color: lightblue;
     position: absolute;
     top: 60px;
@@ -15,4 +19,10 @@ div{
     border-radius: 0;
     position: absolute;
     top:0;
+    display: inline;
+}
+#slide{
+    display: inline;
+    position: absolute;    
+    left: 50%;
 }
